@@ -9,7 +9,7 @@ export function Hero() {
       {/* Background image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://www.abogadochicago.com/wp-content/uploads/2025/12/ChatGPT-Image-18-nov-2025-05_33_26-p.m.-1.png"
+          src="/images/backgrounds/chicago-skyline.png"
           alt="Chicago skyline at dusk"
           fill
           className="object-cover object-[center_30%] opacity-25"
