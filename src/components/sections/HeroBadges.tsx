@@ -5,20 +5,24 @@ import { Counter } from "@/components/ui/Counter";
 export function HeroBadges() {
   return (
     <>
-      {/* $200M+ badge */}
-      <div className="absolute top-16 -left-8 bg-white/10 backdrop-blur-md border border-white/15 rounded-xl px-5 py-4 shadow-badge animate-float">
-        <p className="font-display font-extrabold text-2xl text-white">
+      {/* $200M+ badge — white bg, top-right */}
+      <div className="absolute -top-4 -right-4 bg-white rounded-lg px-5 py-4 shadow-md flex items-center gap-3 z-20">
+        <span className="font-display font-extrabold text-2xl text-orange">
           $<Counter target={200} suffix="M+" />
-        </p>
-        <p className="text-white/70 text-xs mt-0.5">En compensaciones</p>
+        </span>
+        <span className="text-text-muted text-[0.8125rem] leading-tight">
+          En<br />compensaciones
+        </span>
       </div>
 
-      {/* 12,500+ badge */}
-      <div className="absolute bottom-24 -right-4 bg-white/10 backdrop-blur-md border border-white/15 rounded-xl px-5 py-4 shadow-badge animate-float-delayed">
-        <p className="font-display font-extrabold text-2xl text-white">
+      {/* 12,500+ badge — white bg, bottom-left */}
+      <div className="absolute -bottom-4 -left-4 bg-white rounded-lg px-5 py-4 shadow-md flex items-center gap-3 z-20">
+        <span className="font-display font-extrabold text-2xl text-orange">
           <Counter target={12500} suffix="+" />
-        </p>
-        <p className="text-white/70 text-xs mt-0.5">Clientes felices</p>
+        </span>
+        <span className="text-text-muted text-[0.8125rem] leading-tight">
+          Clientes<br />felices
+        </span>
       </div>
     </>
   );

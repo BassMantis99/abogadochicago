@@ -7,6 +7,15 @@ const nextConfig = {
         hostname: "www.abogadochicago.com",
         pathname: "/wp-content/uploads/**",
       },
+      {
+        protocol: "https",
+        hostname: "cdn-ikchf.nitrocdn.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.illinoiscompensation.com",
+        pathname: "/wp-content/uploads/**",
+      },
     ],
   },
 };
