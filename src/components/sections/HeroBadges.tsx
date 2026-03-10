@@ -6,7 +6,7 @@ export function HeroBadges() {
   return (
     <>
       {/* $200M+ badge — white bg, top-right */}
-      <div className="absolute -top-4 -right-4 bg-white rounded-lg px-5 py-4 shadow-md flex items-center gap-3 z-20">
+      <div className="absolute -top-16 -right-4 bg-white rounded-lg px-5 py-4 shadow-md flex items-center gap-3 z-20">
         <span className="font-display font-extrabold text-2xl text-orange">
           $<Counter target={200} suffix="M+" />
         </span>
