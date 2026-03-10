@@ -57,12 +57,12 @@ export function Hero() {
             </div>
           </div>
 
-          {/* Photo side — cutout anchored to bottom, scaled up */}
+          {/* Photo side — cutout anchored to bottom, scaled down */}
           <div className="relative flex-1 hidden lg:flex items-end justify-center mr-10">
-            <div className="relative w-full max-w-[560px] origin-bottom scale-[1.3]">
+            <div className="relative w-full max-w-[460px] origin-bottom scale-[1.1]">
               <Image
-                src="https://www.abogadochicago.com/wp-content/uploads/2025/03/image-666x1024.png"
-                alt="Equipo legal de Abogado Chicago"
+                src="/images/team/jackhero.png"
+                alt="Abogado Jack Epstein"
                 width={666}
                 height={1024}
                 className="w-full h-auto"

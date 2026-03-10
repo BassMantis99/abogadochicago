@@ -15,8 +15,8 @@ export function HeroBadges() {
         </span>
       </div>
 
-      {/* 12,500+ badge — white bg, bottom-left */}
-      <div className="absolute -bottom-4 -left-4 bg-white rounded-lg px-5 py-4 shadow-md flex items-center gap-3 z-20">
+      {/* 12,500+ badge — white bg, moved up from bottom */}
+      <div className="absolute bottom-24 -left-4 bg-white rounded-lg px-5 py-4 shadow-md flex items-center gap-3 z-20">
         <span className="font-display font-extrabold text-2xl text-orange">
           <Counter target={12500} suffix="+" />
         </span>
